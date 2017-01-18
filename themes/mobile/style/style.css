@@ -1,0 +1,263 @@
+body {
+	background: #fff;
+	margin: 0;
+	font-size: 14px;
+	color: #444;
+	font-family: Arial;
+}
+
+a, a:link, a:active, a:visited {
+	color: #666;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img {
+	vertical-align: middle;
+}
+
+div.header {
+	background: #81a647 url(green.gif) repeat-x top;
+	color: #fff;
+	padding: 6px 10px;
+	border-top: 1px solid #81a647;
+	border-bottom: 1px solid #81a647;
+}
+
+a.row_link {
+	color: #666;
+	background: #fff url(link.gif) repeat-x top;
+	padding: 6px 10px;
+	display: block;
+	border-bottom: 1px solid #e9e9e9;
+	border-top: 1px solid #fff;
+}
+
+a.row_link:hover {
+	text-decoration: none;
+}
+
+div.navigation {
+	background: #e87426 url(orange.gif) repeat-x top;
+	padding: 2px 10px;
+	text-align: center;
+}
+
+div.navigation a {
+	text-decoration: none;
+	display: inline-block;
+	padding: 4px 8px;
+	color: #fff;
+	border: 1px solid #f4b387;
+	-khtml-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	margin: 1px 0;
+}
+
+div.navigation a:hover {
+	border: 1px solid #fff;
+}
+
+div.row {
+	background: #f9f9f9;
+	padding: 4px 6px;
+	border: 1px solid #eaeaea;
+	margin: 1px 0;
+}
+
+div.breadcrumbs {
+	font-size: 0.9em;
+}
+
+div.row a, div.row a:link, div.row a:active, div.row a:visited {
+	color: #e87426;
+}
+
+form {
+	padding: 0; margin: 0;
+}
+
+input, textarea, select {
+	padding: 5px 10px;
+	border: 1px solid #d5d5d5;
+	color: #555;
+	margin: 1px 0;
+	-khtml-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+input[type=submit],input[type=button],input[type~=submit],input[type~=button] {
+	padding: 6px 10px;
+	background: #e87426 url(orange.gif) repeat-x top;
+	border: 1px solid #e87426;
+	color: #fff;
+	margin: 2px 0 0 0;
+}
+
+input[type=submit]:hover,input[type=button]:hover,input[type~=submit]:hover,input[type~=button]:hover {
+	background-color: #BA5E20;
+	background-image: none;
+}
+
+div.footer {
+	opacity: 0.7;
+	font-size: 0.8em;
+	color: #969393;
+}
+
+div.footer a {
+	color: #969393;
+}
+
+/* Всякие полезные классы */
+.small {
+	font-size: 0.8em;
+}
+.centered {
+	text-align: center;
+}
+.bold {
+	font-weight: bold;
+}
+.italic {
+	font-style: italic;
+}
+.righted {
+	text-align: right;
+}
+.unblinded {
+	opacity: 1;
+}
+.underlined {
+	text-decoration: underline;
+}
+
+
+/* Уведомления и ошибки */
+.flash_message_block {
+	/*background-color: #1c1c1c; */
+	padding: 3px;
+	font-weight: bold;
+}
+.information {
+	background-color: #AFA;
+	color: #209090;
+}
+
+.negative {
+	background-color: #FAA;
+	color: #AA0000;
+}
+
+.notice {
+	background-color: #FAA;
+	color: #0000F0;
+}
+
+.errorMessage, .errorSummary {
+	font-weight: bold;
+	color: #CC0000;
+}
+
+.errorSummary ul {
+	margin: 2px;
+}
+
+.errorSummary li {
+	/*list-style-image: url(../images/error.16.png);*/
+}
+
+.successMessage, .successSummary {
+	padding: 3px;
+	font-weight: bold;
+	color: #00CC00;
+}
+
+input.error {
+	background-color: #CC0000;
+}
+span.required {
+	color:red;
+}
+
+
+a.button {
+	padding: 4px 10px;
+	background-color: #f9f9f9;
+	border: 1px solid #e87426;
+	color: #e87426;
+	margin: 2px 0 0 0;
+	-khtml-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	display: inline-block;
+}
+
+/*div.buttons_box {
+	padding: 10px;
+}*/
+
+
+/* Yii pagination */
+ul.yiiPager a:link,
+ul.yiiPager a:visited
+{
+	border:solid 1px;
+	font-weight:bold;
+	padding:1px 6px;
+	text-decoration:none;
+}
+
+ul.yiiPager
+{
+	font-size:11px;
+	border:0;
+	margin:0;
+	padding:0;
+	line-height:100%;
+	display:inline;
+}
+
+ul.yiiPager li
+{
+	display:inline;
+	line-height: 2;
+}
+
+ul.yiiPager .selected a
+{
+	background:#e87426;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+
+ul.yiiPager .hidden a
+{
+	border:solid 1px gray;
+	color:#888888;
+}
+
+/**
+ * Hide first and last buttons by default.
+ */
+ul.yiiPager .first,
+ul.yiiPager .last
+{
+	display:none;
+}
+
+.summary {
+	text-align: right;
+}
+
+.pager {
+	text-align: center;
+}

@@ -1,0 +1,39 @@
+[submodule ".yii"]
+	path = .yii
+	url = git://github.com/yiisoft/yii.git
+[submodule "protected/extensions/selectorwidget"]
+	path = protected/extensions/selectorwidget
+	url = git@github.com:wapmorgan/yii-selectorwidget.git
+[submodule "protected/extensions/consolerbac"]
+	path = protected/extensions/consolerbac
+	url = git@github.com:wapmorgan/yii-consolerbac.git
+[submodule "protected/extensions/bootstrap"]
+	path = protected/extensions/bootstrap
+	url = git@github.com:wapmorgan/hg2git-yii-bootstrap.git
+[submodule "protected/extensions/yiiext/behaviors/model/trees/NestedSetBehavior"]
+	path = protected/extensions/yiiext/behaviors/model/trees/NestedSetBehavior
+	url = git://github.com/yiiext/nested-set-behavior.git
+[submodule "protected/extensions/QTreeGridView"]
+	path = protected/extensions/QTreeGridView
+	url = git@github.com:wapmorgan/QTreeGridView.git
+[submodule "protected/extensions/LogofonIpList"]
+	path = protected/extensions/LogofonIpList
+	url = git@github.com:wapmorgan/LogofonIpList.git
+[submodule "protected/extensions/ConsoleRbac"]
+	path = protected/extensions/ConsoleRbac
+	url = git@github.com:wapmorgan/ConsoleRbac.git
+[submodule "protected/extensions/ESaveRelatedBehavior"]
+	path = protected/extensions/ESaveRelatedBehavior
+	url = git@github.com:wapmorgan/ESaveRelatedBehavior.git
+[submodule "protected/extensions/yiiext/behaviors/activerecord-relation"]
+	path = protected/extensions/yiiext/behaviors/activerecord-relation
+	url = https://github.com/yiiext/activerecord-relation-behavior.git
+[submodule "protected/extensions/CliTreeManager"]
+	path = protected/extensions/CliTreeManager
+	url = https://github.com/wapmorgan/CliTreeManager.git
+[submodule "protected/extensions/CmsSettings"]
+	path = protected/extensions/CmsSettings
+	url = git@github.com:wapmorgan/CmsSettings.git
+[submodule "protected/extensions/NcursesObjects"]
+	path = protected/extensions/NcursesObjects
+	url = git@github.com:wapmorgan/NcursesObjects.git

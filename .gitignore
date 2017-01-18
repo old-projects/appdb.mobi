@@ -1,0 +1,4 @@
+protected/config/database.php
+*.sublime-project
+*.sublime-workspace
+google*.html
